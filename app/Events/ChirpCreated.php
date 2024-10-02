@@ -19,10 +19,10 @@ class ChirpCreated
     /**
      * Create a new event instance.
      */
-    public function __construct()
-    {
-        //
-    }
+    public function __construct(
+        Chirp $chirp
+    )
+    {}
 
     /**
      * Get the channels the event should broadcast on.

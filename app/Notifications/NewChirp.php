@@ -18,7 +18,8 @@ class NewChirp extends Notification
      */
     public function __construct(
         Chirp $chirp
-    ) {}
+    )
+    {}
 
     /**
      * Get the notification's delivery channels.
