@@ -51,7 +51,7 @@ class ChirpPolicy
     /**
      * Determine whether the user can restore the model.
      */
-    public function restore(User $user, Chirp $chirp): bool
+    public function restore(User $user, Chirp $chirp)
     {
         //
     }
